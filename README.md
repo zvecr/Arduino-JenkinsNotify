@@ -11,7 +11,7 @@ IR LED
 
 Supported notification hardware:
 * RGB lights driven via a 24 key IR remote
-  ![24 button remote](images/arduino_fritzing.png)
+  ![24 button remote](images/remote.png | width=100)
 * [Pac-Man Plastic Ghost Lamp](https://www.amazon.co.uk/dp/B00IFC2YCC/)
 
 ## Jenkins
@@ -25,7 +25,9 @@ Install library dependencies
 
 # Setup
 ## Hardware
-![Arduino fritzing](images/arduino_fritzing.png)
+Stack Network Shield on Arduino mega 2560
+Connect IR LED to pin 9
+![Arduino fritzing](images/arduino_fritzing.png | width=200)
 
 ## Jenkins
 Configure job with the following settings
