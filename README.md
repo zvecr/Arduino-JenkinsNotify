@@ -1,7 +1,7 @@
 # Arduino-JenkinsNotify
 RGB Arduino based Jenkins Notifications
 
-![Example gidf](images/example.gif)
+<img src="images/example.gif" height="200">
 
 # Requirements
 ## Hardware
@@ -11,7 +11,7 @@ IR LED
 
 Supported notification hardware:
 * RGB lights driven via a 24 key IR remote
-  ![24 button remote](images/remote.png)
+  <img src="images/remote.png" width="100">
 * [Pac-Man Plastic Ghost Lamp](https://www.amazon.co.uk/dp/B00IFC2YCC/)
 
 ## Jenkins
@@ -27,7 +27,8 @@ Install library dependencies
 ## Hardware
 Stack Network Shield on Arduino mega 2560
 Connect IR LED to pin 9
-![Arduino fritzing](images/arduino_fritzing.png)
+
+<img src="images/arduino_fritzing.png" width="250">
 
 ## Jenkins
 Configure job with the following settings
@@ -36,7 +37,7 @@ Configure job with the following settings
 * EVENT:any
 * URL:http://${IP}/status
 
-![Jenkins Config](images/jenkins_config.png)
+<img src="images/jenkins_config.png" width="300">
 
 ## Arduino
 1. Change IP and mac in jenkins_notify.ino
