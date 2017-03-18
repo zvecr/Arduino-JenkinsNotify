@@ -25,8 +25,8 @@ Install library dependencies
 
 # Setup
 ## Hardware
-Stack Network Shield on Arduino mega 2560
-Connect IR LED to pin 9
+1. Stack Network Shield on Arduino mega 2560
+2. Connect IR LED to pin 9
 
 <img src="images/arduino_fritzing.png" width="250">
 
