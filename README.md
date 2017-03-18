@@ -1,5 +1,6 @@
 # Arduino-JenkinsNotify
 RGB Arduino based Jenkins Notifications
+
 ![Example gidf](images/example.gif)
 
 # Requirements
@@ -10,7 +11,7 @@ IR LED
 
 Supported notification hardware:
 * RGB lights driven via a 24 key IR remote
-![24 button remote](images/arduino_fritzing.png)
+  ![24 button remote](images/arduino_fritzing.png)
 * [Pac-Man Plastic Ghost Lamp](https://www.amazon.co.uk/dp/B00IFC2YCC/)
 
 ## Jenkins

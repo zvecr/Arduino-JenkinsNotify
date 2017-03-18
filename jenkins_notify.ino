@@ -2,7 +2,6 @@
 #include <ArduinoJson.h>
 #include <IRremote.h>
 #include <WebServer.h>
-//#include "WebServer.h"
 
 // Enter a MAC address for your controller below.
 byte mac[] = { 0x00, 0xAA, 0xBB, 0xCC, 0xDE, 0x02 };
@@ -116,7 +115,7 @@ void statusJsonCmd(WebServer &server, const JsonObject& root)
 
   updateStatus(cur_status);
   server.httpSuccess();
-  server.printf("status:%d", cur_status);
+  server.printf(F("status:%d"), cur_status);
 }
 
 /**
@@ -152,4 +151,3 @@ void loop()
   // process incoming connections one at a time forever
   webserver.processConnection();
 }
-
