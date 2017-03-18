@@ -5,9 +5,9 @@ RGB Arduino based Jenkins Notifications
 
 # Requirements
 ## Hardware
-[Arduino mega 2560](https://www.amazon.co.uk/dp/B0046AMGW0) or compatible clone
-[Ethernet W5100 Network Shield](https://www.amazon.co.uk/dp/B00CQN2FDY/) or compatible clone
-IR LED
+* [Arduino mega 2560](https://www.amazon.co.uk/dp/B0046AMGW0) or compatible clone
+* [Ethernet W5100 Network Shield](https://www.amazon.co.uk/dp/B00CQN2FDY/) or compatible clone
+* IR LED
 
 Supported notification hardware:
 * RGB lights driven via a 24 key IR remote
